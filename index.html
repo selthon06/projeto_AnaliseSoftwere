@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER COM MENU -->
+<header class="header-topo">
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+</header>
+
+<!-- LOGO GRANDE -->
+<section class="hero-logo">
+    <img src="img/logo.png" alt="AstroTech">
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+    <h2>Sobre a Empresa</h2>
+    <br>
+    <p>
+        AstroTech é especializada no desenvolvimento de sistemas e soluções digitais modernas, 
+        atuando desde o levantamento e análise de requisitos até a entrega final. 
+        Nosso foco é transformar ideias em soluções eficientes, inovadoras e alinhadas às necessidades do cliente, 
+        garantindo qualidade, performance e excelência em cada projeto.
+    </p>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="section">
+    <h2>Serviços</h2>
+    <br>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Desenvolvimento Web</h3>
+            <p>Sites modernos e responsivos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Front-end</h3>
+            <p>Interfaces bonitas e intuitivas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Back-end</h3>
+            <p>Lógica e estrutura de sistemas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Análise de Sistemas</h3>
+            <p>Levantamento de requisitos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Modelagem UML</h3>
+            <p>Diagramas de classes e casos de uso.</p>
+        </div>
+
+        <!-- NOVO -->
+        <div class="card">
+            <h3>Banco de Dados</h3>
+            <p>Modelagem, criação e gerenciamento de bancos de dados eficientes e seguros.</p>
+        </div>
+
+        <!-- SITE EMPRESARIAL MOVIDO PRA CÁ -->
+        <div class="card">
+            <h3>Site Empresarial</h3>
+            <p>Projeto moderno com foco em design, performance e presença digital.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJETOS -->
+<section class="section">
+    <a href="projetos.html" class="btn">Acessar projetos</a>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+    <h2>Contato</h2>
+    <p>Email: contato@astrotechtl.com</p>
+    <p>Telefone: (67) 00000-0000</p>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+    <p>© 2025 AstroTech</p>
+</footer>
+
+<!-- SCRIPT MENU -->
+<script>
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
