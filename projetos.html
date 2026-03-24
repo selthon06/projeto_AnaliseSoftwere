@@ -1,15 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos - AstroTech</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<header class="header-projetos">
     <div class="container">
-        <img src="img/logo.png" class="logo-pequena">
+        <img src="img/logo.png" alt="AstroTech" class="logo-pequena">
 
         <nav class="menu-normal">
             <a href="index.html">Home</a>
@@ -21,76 +23,74 @@
 </header>
 
 <section class="section">
-    <h2>Nossos Projetos</h2>
+    <div class="container-titulo">
+        <h2>Nossos Projetos</h2>
+        <p class="subtitle">Soluções desenvolvidas pela equipe AstroTech</p>
+        <a href="index.html" class="btn-voltar">⬅ Voltar para Home</a>
+    </div>
 
-    <!-- BOTÃO VOLTAR -->
-    <a href="index.html" class="btn-voltar">⬅ Voltar</a>
+    <div class="project-grid">
 
-    <div class="cards">
+        <div class="project-card">
+            <div class="project-info">
+                <span class="category">SISTEMA</span>
+                <h3>🎟️ Gerenciamento de Eventos</h3>
+                <p>Desenvolvido para a Comunidade Tech com foco em organização de eventos e controle de participantes.</p>
+                
+                <div class="tech-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Lógica</span>
+                    <span class="tag">Algoritmos</span>
+                </div>
 
-        <!-- PROJETO 1 -->
-        <div class="card">
-            <h3>🎟️ Sistema de Gerenciamento de Eventos</h3>
-
-            <p>
-                Sistema desenvolvido para a Comunidade Tech com foco na organização
-                de eventos, controle de participantes e gestão eficiente das atividades.
-            </p>
-
-            <p><strong>Projeto acadêmico:</strong> TADS1 - Algoritmos</p>
-
-            <p><strong>Tecnologias:</strong> Python / Lógica de Programação</p>
-
-            <a href="https://github.com/selthon06/TADS1-Trabalho-ALG" target="_blank" class="btn">
-                Ver no GitHub
-            </a>
+                <a href="https://github.com/selthon06/TADS1-Trabalho-ALG" target="_blank" class="btn">
+                    Ver no GitHub
+                </a>
+            </div>
         </div>
 
-        <!-- PROJETO 2 -->
-        <div class="card">
-            <h3>🌐 Landing Page</h3>
+        <div class="project-card">
+            <div class="project-info">
+                <span class="category">WEB DESIGN</span>
+                <h3>🌐 Landing Page</h3>
+                <p>Página moderna focada em design limpo, responsividade e apresentação profissional.</p>
+                
+                <div class="tech-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Layout</span>
+                </div>
 
-            <p>
-                Landing page moderna desenvolvida com foco em design limpo,
-                responsividade e apresentação profissional de serviços.
-            </p>
-
-            <p><strong>Tecnologias:</strong> HTML / CSS</p>
-
-            <a href="https://selthon06.github.io/landing-page/" target="_blank" class="btn">
-                Ver Projeto Online
-            </a>
+                <a href="https://selthon06.github.io/landing-page/" target="_blank" class="btn">
+                    Ver Online
+                </a>
+            </div>
         </div>
 
-        <!-- PROJETO 3 -->
-        <div class="card">
-            <h3>🚀 To-Do Futurista</h3>
+        <div class="project-card">
+            <div class="project-info">
+                <span class="category">APLICAÇÃO</span>
+                <h3>🚀 To-Do Futurista</h3>
+                <p>Aplicação interativa para gestão de tarefas com interface moderna e funcionalidades dinâmicas.</p>
+                
+                <div class="tech-tags">
+                    <span class="tag">JS</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
 
-            <p>
-                Aplicação web interativa para gerenciamento de tarefas,
-                com funcionalidades de adicionar, concluir e remover tarefas
-                em uma interface moderna.
-            </p>
-
-            <p><strong>Tecnologias:</strong> HTML / CSS / JavaScript</p>
-
-            <a href="https://selthon06.github.io/todo-futurista/" target="_blank" class="btn">
-                Ver Projeto Online
-            </a>
+                <a href="https://selthon06.github.io/todo-futurista/" target="_blank" class="btn">
+                    Ver Online
+                </a>
+            </div>
         </div>
-
-        <!-- COPIAR PARA NOVOS PROJETOS -->
-        <!--
-        <div class="card">
-            <h3>Nome do Projeto</h3>
-            <p>Descrição aqui.</p>
-            <p><strong>Tecnologias:</strong> ...</p>
-            <a href="#" class="btn">Ver Projeto</a>
-        </div>
-        -->
 
     </div>
 </section>
+
+<footer>
+    <p>© 2025 AstroTech — Selthon & Victor</p>
+</footer>
 
 </body>
 </html>
